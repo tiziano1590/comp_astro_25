@@ -1,0 +1,72 @@
+hi
+for assignment 2 :
+
+mahdis :
+
+TASK A 
+
+i did task one with another yaml data(HATS-12b)
+this is the commit code of creation if png :
+ 
+commit 4a13649bc1c932ef168f1688714c1569026a1589
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Mon Nov 17 17:35:27 2025 +0000 
+
+
+and rename it to assignment2_taskA :
+ 
+commit 82cbb57963ae1b5336df0345b10cbb8adec08e46 (HEAD -> main, origin/main, origin/HEAD)
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Mon Nov 17 17:36:04 2025 +0000
+
+TASK B & C:
+
+commit b21637213c13ac8b0e6a2f35fe50bd9d66ab2b5b
+Author: lcballard <lewballard@gmail.com>
+Date:   Fri Nov 21 09:09:41 2025 +0000
+
+    lewis: modified __main__ to accept multiple files seperated by comma for assignment 2 task B,C; result in combined_lc.png
+
+
+TASK D:
+commit ad1c6f022179adc87418b12573a2cb2f7238e175
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Wed Dec 3 20:07:14 2025 +0000
+
+    Mahdis: task d is completed: i run all again with the new TESSModels class. and make the code neater, for example the main is so
+ neat noe, or there was some samples lghtcurves write repeatedly. also i added cached in load data to be sure it does not repeat ran
+domly.
+
+
+TASK E:
+commit 1c281f302450b2cc7ecb253c63c89b0d94f54c99
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Wed Dec 3 20:04:47 2025 +0000
+
+    Mahdis: TASK E is completed: i wrote a class (tessmodels) and add two models , which means there are three models in this class:
+ RF, SVM, linearmodel. redesigned all the function to give right outputs and completed. and run them.
+
+TASK F:
+commit c21a966587dfff404e9cb6fd776b13838139616e
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Fri Dec 5 03:21:27 2025 +0000
+
+    mahdis: task F is finished: based on tess anlysis deep learning pythonfile, i wrote a class named TESSTransitCNN and first i def
+inded for defualt, and then tried to changed hyperparameters. i used tenorflows and i did not work with torch. and run it and thgese
+ files are final files of them .
+
+TASK G:
+commit f0f93c0c94fd874ebee2b46e3a0f885dcfa641f8
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Wed Dec 3 20:01:58 2025 +0000
+
+    mahdis: TASK G is completed: i 1. defined a class in daneel, 2. took randomforest model from the tessmodels (the main class inclu
+ding 3 different models) 3. changed main. (there was aconflict for yamlfile we take, tried to fixed that and add rf detection) done.
+ 4. run the task, successful. 5. update readme. I NEED YOUR OPINION ABOUT README STYLE.
+
+TASK H:
+commit ac984ba3b48f565d761dfab8bd66bd156a6f9d0b (HEAD -> main, origin/main, origin/HEAD)
+Author: adityaswamy-Astro <aditya.swamy@studenti.unipd.it>
+Date:   Fri Dec 5 09:14:13 2025 +0000
+
+    Readme updated for task H

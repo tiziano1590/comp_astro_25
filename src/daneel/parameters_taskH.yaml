@@ -1,0 +1,12 @@
+detection:
+  algorithm: cnn
+  dataset_path: ../../tess_data.csv
+  n_bins: 1000
+  samples_per_class: 400 
+  alpha: 0.75
+  gamma: 2.5
+  batch_size : 64
+  threshold : 0.5
+  kernel_size : 3
+
+

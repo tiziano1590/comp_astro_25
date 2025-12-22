@@ -1,0 +1,28 @@
+Dataset Summary:
+----------------------------------------
+Total samples: 889
+Number of features (bins): 1000
+Train/Test split: Train=700, Test=189
+Original class distribution (before balancing): Class 0=445, Class 1=444
+Balanced training set: Class 0=350, Class 1=350
+----------------------------------------
+
+Model 1 - Logistic Regression
+Optimal Threshold used: 0.4985
+AUC-ROC: 0.5300
+
+Confusion Matrix:
+[[70, 25], [49, 45]]
+Precision: 0.6429
+
+Classification report:
+              precision    recall  f1-score   support
+
+  Non-Planet     0.5882    0.7368    0.6542        95
+      Planet     0.6429    0.4787    0.5488        94
+
+    accuracy                         0.6085       189
+   macro avg     0.6155    0.6078    0.6015       189
+weighted avg     0.6154    0.6085    0.6018       189
+
+----------------------------------------

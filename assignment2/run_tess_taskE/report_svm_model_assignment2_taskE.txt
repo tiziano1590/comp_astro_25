@@ -1,0 +1,28 @@
+Dataset Summary:
+----------------------------------------
+Total samples: 889
+Number of features (bins): 1000
+Train/Test split: Train=700, Test=189
+Original class distribution (before balancing): Class 0=445, Class 1=444
+Balanced training set: Class 0=350, Class 1=350
+----------------------------------------
+
+Model 2 - SVM
+Optimal Threshold used: 0.5099
+AUC-ROC: 0.5146
+
+Confusion Matrix:
+[[86, 9], [67, 27]]
+Precision: 0.7500
+
+Classification report:
+              precision    recall  f1-score   support
+
+  Non-Planet     0.5621    0.9053    0.6935        95
+      Planet     0.7500    0.2872    0.4154        94
+
+    accuracy                         0.5979       189
+   macro avg     0.6560    0.5962    0.5545       189
+weighted avg     0.6555    0.5979    0.5552       189
+
+----------------------------------------

@@ -1,0 +1,45 @@
+Dataset Summary:
+----------------------------------------
+Total samples: 889
+Number of features (bins): 1000
+Train/Test split: Train=700, Test=189
+Original class distribution (before balancing): Class 0=445, Class 1=444
+Balanced training set: Class 0=350, Class 1=350
+----------------------------------------
+
+Model 1 - n_estimators=100, max_depth=5
+Optimal Threshold used: 0.5034
+
+Confusion Matrix:
+[[74 21]
+ [ 6 88]]
+Precision: 0.8073
+
+--------------------------------------------------------------------------------
+Model 2 - n_estimators=100, max_depth=10
+Optimal Threshold used: 0.4048
+
+Confusion Matrix:
+[[73 22]
+ [ 2 92]]
+Precision: 0.8070
+
+--------------------------------------------------------------------------------
+Model 3 - n_estimators=200, max_depth=5
+Optimal Threshold used: 0.5074
+
+Confusion Matrix:
+[[74 21]
+ [ 6 88]]
+Precision: 0.8073
+
+--------------------------------------------------------------------------------
+Model 4 - n_estimators=200, max_depth=10
+Optimal Threshold used: 0.3522
+
+Confusion Matrix:
+[[71 24]
+ [ 1 93]]
+Precision: 0.7949
+
+--------------------------------------------------------------------------------

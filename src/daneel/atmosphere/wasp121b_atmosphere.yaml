@@ -1,0 +1,46 @@
+# atmosphere_params.yaml
+planet_name: "WASP-121b"
+
+transit:
+  name: WASP-121
+  t0: 0.0
+  per: 1.580404
+  rp: 0.187           # This is rp/rs ratio from transit fitting!
+  a: 5.47             # Semi-major axis in stellar radii
+  inc: 87.5
+  ecc: 0.0
+  w: 90
+  limb_dark: quadratic
+  u1: 0.27
+  u2: 0.02
+
+
+planet:
+  radius: 1.81        # Jupiter radii (WASP-121b is ~1.81 R_jup)
+  mass: 1.18          # Jupiter masses (WASP-121b is ~1.18 M_jup)
+
+star:
+  temperature: 6459   
+  radius: 1.458       # Solar radii (for WASP-121)
+
+atmosphere:
+  T_irr: 2358         # Irradiation temperature for WASP-121b (hot Jupiter!)
+  min_pressure: 1e0   # Pa
+  max_pressure: 1e6   # Pa
+  nlayers: 30
+
+  #molecules
+  molecules: ["H2O", "CH4", "CO2", "CO"]
+
+ # Background/fill gases
+  fill_gases: ["H2", "He"]
+  he_h2_ratio: 0.172  # Standard He/H2 ratio
+
+  # Collision-induced absorption pairs
+  cia_pairs: ["H2-H2", "H2-He"]
+
+# Wavelength range for spectrum
+wavelength:
+  min: 0.3    # microns
+  max: 10.0   # microns
+  n_points: 1000

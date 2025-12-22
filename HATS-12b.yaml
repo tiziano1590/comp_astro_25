@@ -1,0 +1,13 @@
+transit:
+  name: HATS-12b
+  t0: 0.0
+  per: 3.142702
+  rp: 0.06951
+  a: 9.48
+  inc: 85.27
+  ecc: 0.085
+  w: 0.0
+  limb_dark: quadratic
+  u1: 0.25
+  u2: 0.34
+

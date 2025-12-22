@@ -1,0 +1,125 @@
+================================================================================
+CNN CONFIGURATION TEST REPORT - TESS TRANSIT DETECTION
+================================================================================
+
+Task: Detect real planets in TESS data using deep learning techniques
+Tested 4 different CNN configurations
+
+CONFIGURATION 1: Default
+------------------------------------------------------------
+Precision: 0.8485
+Accuracy:  0.8677
+Optimal Threshold: 0.4233
+
+Confusion Matrix:
++-----------------------------------+
+|                 |   Predicted    |
+|                 | No Planet | Planet |
++-----------------------------------+
+| Actual No Planet |      80    |     15  |
++-----------------------------------+
+| Actual Planet    |      10    |     84  |
++-----------------------------------+
+
+Detailed Analysis:
+  True Negatives (Correct Non-Planets):   80 (  42.3%)
+  False Positives (False Alarms):         15 (   7.9%)
+  False Negatives (Missed Planets):       10 (   5.3%)
+  True Positives (Correct Planets):       84 (  44.4%)
+
+================================================================================
+
+CONFIGURATION 2: Config1
+------------------------------------------------------------
+Precision: 0.8769
+Accuracy:  0.7619
+Optimal Threshold: 0.9529
+
+Confusion Matrix:
++-----------------------------------+
+|                 |   Predicted    |
+|                 | No Planet | Planet |
++-----------------------------------+
+| Actual No Planet |      87    |      8  |
++-----------------------------------+
+| Actual Planet    |      37    |     57  |
++-----------------------------------+
+
+Detailed Analysis:
+  True Negatives (Correct Non-Planets):   87 (  46.0%)
+  False Positives (False Alarms):          8 (   4.2%)
+  False Negatives (Missed Planets):       37 (  19.6%)
+  True Positives (Correct Planets):       57 (  30.2%)
+
+================================================================================
+
+CONFIGURATION 3: Config2
+------------------------------------------------------------
+Precision: 0.7677
+Accuracy:  0.7831
+Optimal Threshold: 0.0628
+
+Confusion Matrix:
++-----------------------------------+
+|                 |   Predicted    |
+|                 | No Planet | Planet |
++-----------------------------------+
+| Actual No Planet |      72    |     23  |
++-----------------------------------+
+| Actual Planet    |      18    |     76  |
++-----------------------------------+
+
+Detailed Analysis:
+  True Negatives (Correct Non-Planets):   72 (  38.1%)
+  False Positives (False Alarms):         23 (  12.2%)
+  False Negatives (Missed Planets):       18 (   9.5%)
+  True Positives (Correct Planets):       76 (  40.2%)
+
+================================================================================
+
+CONFIGURATION 4: Config3
+------------------------------------------------------------
+Precision: 0.8101
+Accuracy:  0.7619
+Optimal Threshold: 0.6941
+
+Confusion Matrix:
++-----------------------------------+
+|                 |   Predicted    |
+|                 | No Planet | Planet |
++-----------------------------------+
+| Actual No Planet |      80    |     15  |
++-----------------------------------+
+| Actual Planet    |      30    |     64  |
++-----------------------------------+
+
+Detailed Analysis:
+  True Negatives (Correct Non-Planets):   80 (  42.3%)
+  False Positives (False Alarms):         15 (   7.9%)
+  False Negatives (Missed Planets):       30 (  15.9%)
+  True Positives (Correct Planets):       64 (  33.9%)
+
+================================================================================
+
+SUMMARY TABLE
+--------------------------------------------------------------------------------
+Configuration   Precision    Accuracy     TN     FP     FN     TP    
+--------------------------------------------------------------------------------
+Default         0.8485       0.8677       80     15     10     84    
+Config1         0.8769       0.7619       87     8      37     57    
+Config2         0.7677       0.7831       72     23     18     76    
+Config3         0.8101       0.7619       80     15     30     64    
+--------------------------------------------------------------------------------
+
+BEST CONFIGURATIONS:
+--------------------------------------------------------------------------------
+Best by Precision: Config1 (Precision: 0.8769)
+Best by Accuracy:  Default (Accuracy: 0.8677)
+--------------------------------------------------------------------------------
+
+CONCLUSION:
+--------------------------------------------------------------------------------
+All configurations successfully tested different hyperparameters and architectures.
+Precision measures how many predicted planets are actual planets.
+Higher precision means fewer false alarms (false positives).
+================================================================================

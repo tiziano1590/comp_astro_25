@@ -2,10 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+#Atmosphere
+atmosphere/*
 # C extensions
 *.so
-
+#notebook
+/ca25/comp_astro_25/notebook/*
+notebook/*
 # Distribution / packaging
 .Python
 build/

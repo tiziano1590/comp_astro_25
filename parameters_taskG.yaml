@@ -1,0 +1,13 @@
+detection:
+  algorithm: rf
+  dataset_path: tess_data.csv
+  n_bins: 1000
+  use_scaler: true
+  samples_per_class: 350
+  random_forest:
+    n_estimators: 500
+    max_depth: null
+    min_samples_leaf: 1
+    max_features: sqrt
+    bootstrap: true
+    class_weight: null

@@ -1,0 +1,47 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: Teff, datatype: float64}
+# - {name: logg, datatype: float64}
+# - {name: FeH, datatype: float64}
+# - {name: profile, datatype: string}
+# - {name: filter, datatype: string}
+# - {name: wave_min, datatype: float16}
+# - {name: wave_eff, datatype: float16}
+# - {name: wave_max, datatype: float16}
+# - {name: c1, datatype: float64}
+# - {name: e1, datatype: float64}
+# - {name: c2, datatype: float64}
+# - {name: e2, datatype: float64}
+# schema: astropy-2.0
+Teff logg FeH profile filter wave_min wave_eff wave_max c1 e1 c2 e2
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.422 0.4294 0.437 0.696 0.0 0.099 0.0
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.438 0.4456 0.453 0.668 0.002 0.143 0.003
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.454 0.4614 0.469 0.615 0.004 0.188 0.005
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.47 0.4775 0.485 0.581 0.004 0.207 0.006
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.486 0.4934 0.501 0.552 0.005 0.211 0.006
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.502 0.5093 0.517 0.549 0.004 0.202 0.006
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.518 0.5254 0.533 0.529 0.005 0.194 0.006
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.534 0.5415 0.549 0.5 0.006 0.218 0.007
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.55 0.5576 0.565 0.481 0.006 0.225 0.008
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.566 0.5737 0.581 0.465 0.006 0.229 0.009
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.582 0.5894 0.597 0.449 0.007 0.234 0.009
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.598 0.6055 0.613 0.435 0.007 0.234 0.009
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.614 0.6216 0.629 0.422 0.007 0.231 0.009
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.63 0.6377 0.645 0.41 0.007 0.234 0.009
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.646 0.6533 0.661 0.375 0.007 0.249 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.662 0.6694 0.677 0.387 0.007 0.234 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.678 0.6855 0.693 0.381 0.007 0.23 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.694 0.7017 0.709 0.373 0.007 0.227 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.71 0.7173 0.725 0.363 0.007 0.225 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.726 0.7334 0.741 0.355 0.007 0.224 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.742 0.7495 0.757 0.345 0.007 0.224 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.758 0.7656 0.773 0.337 0.007 0.223 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.774 0.7817 0.789 0.33 0.008 0.222 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.79 0.7974 0.805 0.325 0.007 0.221 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.806 0.8135 0.821 0.318 0.007 0.22 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.822 0.8296 0.837 0.31 0.007 0.22 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.838 0.8457 0.853 0.3 0.007 0.221 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.854 0.8613 0.869 0.293 0.007 0.222 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.87 0.8774 0.885 0.291 0.007 0.219 0.01
+5750.0 4.5 0.0 quadratic Kepler/Kepler.K 0.886 0.8936 0.901 0.278 0.008 0.221 0.011

@@ -1,0 +1,63 @@
+[Global]
+xsec_path = /home/zingales/data/xsecs
+cia_path = /home/zingales/data/cia/hitran
+mpi_use_shared = True
+
+[Chemistry]
+chemistry_type = taurex
+fill_gases = H2,He
+ratio = 0.25
+
+    [[H2O]]
+    gas_type = constant
+    mix_ratio=1.1185e-4
+
+
+[Temperature]
+profile_type = isothermal
+T = 1300
+
+[Pressure]
+profile_type = Simple
+atm_min_pressure = 1e-0
+atm_max_pressure = 1e6
+nlayers = 100
+
+[Planet]
+planet_type = Simple
+planet_mass = 1.0
+planet_radius = 0.999430455828
+
+[Star]
+star_type = blackbody
+temperature = 5800
+
+[Model]
+model_type = transmission
+
+    [[Absorption]]
+
+    [[CIA]]
+    cia_pairs = H2-H2, H2-He,
+
+    [[Rayleigh]]
+
+[Observation]
+taurex_spectrum = self
+observed_spectrum = /home/zingales/Exoplanets/TOI-5398/exercise/quickstart.dat
+
+[Optimizer]
+num_live_points = 1000
+optimizer = multinest
+search_multi_modes = False
+multi_nest_path = ./multinest
+
+[Fitting]
+planet_radius:fit = True
+planet_radius:bounds = 0.3, 2
+
+T:fit = True
+T:bounds = 300, 2000
+
+H2O:fit = True
+H2O:bounds = 1e-12, 1e-1

@@ -21,6 +21,7 @@ class TransitModel:
             Dictionary containing transit parameters loaded from YAML file
         """
         self.params = batman.TransitParams()
+        self.params.name = params_dict.get('name')
         self.params.t0 = params_dict.get('t0', 0.0)
         self.params.per = params_dict.get('per')
         self.params.rp = params_dict.get('rp')
@@ -49,7 +50,7 @@ class TransitModel:
         self.flux = self.model.light_curve(self.params)
         return self.flux
     
-    def plot_light_curve(self, output_file='lc.png'):
+    def plot_light_curve(self, output_file= None):
         """
         Plot and save the transit light curve.
         
@@ -60,16 +61,20 @@ class TransitModel:
         """
         if not hasattr(self, 'flux'):
             self.compute_light_curve()
+        if output_file is None:
+            output_file = f"{self.params.name}_lc.png"
         
         plt.figure(figsize=(10, 6))
         plt.plot(self.t, self.flux)
         plt.xlabel("Time from central transit (days)")
         plt.ylabel("Relative flux")
+        plt.title(self.params.name)
         plt.savefig(output_file)
         plt.show()
         print(f"Light curve saved to {output_file}")
     
-    def run(self, output_file='lc.png'):
+
+    def run(self, output_file = None):
         """
         Run the complete transit model workflow: compute and plot light curve.
         
@@ -78,5 +83,7 @@ class TransitModel:
         output_file : str, optional
             Output filename for the plot (default: 'lc.png')
         """
+        if not output_file:
+            output_file = f"{self.params.name}_lc.png"
         self.compute_light_curve()
         self.plot_light_curve(output_file)

@@ -1,0 +1,12 @@
+transit:
+  name: WASP-121
+  t0: 0.0
+  per: 1.580404
+  rp: 0.187
+  a: 5.47
+  inc: 87.5
+  ecc: 0.0
+  w: 90
+  limb_dark: quadratic
+  u1: 0.27
+  u2: 0.02

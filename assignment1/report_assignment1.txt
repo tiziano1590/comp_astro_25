@@ -1,0 +1,111 @@
+assignment 1: Better together !
+
+students :
+
+Mahdis Rezaei Niasar 
+github username : mahdisrenia-coder
+
+Lewis 
+github username : lcballard
+
+Bianca
+github username : bponnekanti
+
+Aditya
+github username : 
+
+-----------------
+
+Task A: 
+repository name : comp_astro_25
+link : https://github.com/bponnekanti/comp_astro_25.git
+-----------------
+
+Task B: 
+commit 606c80c6a9aaeded400ba565d642e6d406cfacd9 
+Date:   Sun Oct 26 10:38:51 2025 +0000
+----------------
+
+Task C: 
+
+taskC_mahdisrenia-coder.txt
+username : mahdisrenia-coder
+commit 8c173a6b1eba6e3f1913be0f9e6dfdc52b0531cb 
+Date:   Sun Oct 26 11:43:49 2025 +0000
+
+taskC_lcballard.txt
+username: lcballard
+commit 6161122a86f65114ae7a1f31e1c5abd2b36ce948
+Date:   Sun Oct 26 13:30:31 2025 +0000
+----------------
+
+Task D: 
+
+commit 6474c99a190d9715d60e580c10683b8acae959e8 (HEAD -> main, origin/main, origin/HEAD)
+Merge: cbadd34 a044d7d
+Author: mahdisrenia-coder 
+Date:   Sun Nov 2 17:39:09 2025 +0000
+
+METHOD: add file, commit, push, and use "merge" command. 
+
+i merged it again : 
+commit dd7d8e1006e4ac6186bc7e5337e560b5c348c2f9 
+Merge: d25a4b1 fb7390c
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Fri Nov 7 13:10:25 2025 +0000
+
+    Merge branch 'main' of https://github.com/bponnekanti/comp_astro_25
+---------------
+
+Task E :
+
+commit 56e4c9a136a78177b92298d108e6d75f0c219bdc
+Author: mahdisrenia-coder 
+Date:   Sun Nov 2 18:02:09 2025 +0000
+
+briefly explenation:
+added list of packages from conda environment which is included packages like numpy, python, batman-packages
+--------------
+
+Task F :
+
+commit 215a01276da016c8ca2d14c50daabbc2b5558436
+Author: mahdisrenia-coder 
+Date:   Mon Nov 3 13:25:54 2025 +0000
+
+Brief description of light curve and Python script contents: 
+In the Python script, using the batman package, the planetary parameters of HATS-12 b and its limb darkening coefficients (from a CSV file) 
+are used to model the transit and generate the corresponding light curve. 
+The PNG file shows the simulated transit light curve of HATS-12 b, showing the change in the star’s relative brightness(relative flux) 
+during the planet’s transit (time). 
+---------------
+
+Task G :
+adding transit file
+commit 7b6365c5a88e81af4bdb31f607fce665089ee413
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Thu Nov 6 
+
+updating read me :
+commit 72f695cf7f13a9b34dba3ccb829a478feda4105d
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Thu Nov 6 20:01:02 2025 +0000
+
+    update READ me with transit command and explenation of command
+
+make yaml file :
+commit 1e4deb846160f71ad82070fe5fca7310840c9053
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Fri Nov 7 08:38:46 2025 +0000
+
+    create yml file to test task G
+
+-----------------
+
+Task H :
+
+commit c0cca1cc0fc1b265bf7361adc321a6a705a38e15
+Author: mahdisrenia-coder <mahdis.rezaeiniasar@gmail.com>
+Date:   Fri Nov 7 10:09:54 2025 +0000
+
+    add run_daneel forlder with transit parameter file in yaml format and the generated light curve, SO CONFUSED how to show i ran out of my repo and it DID work,take screan?
